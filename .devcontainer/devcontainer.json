@@ -1,6 +1,7 @@
 {
-
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04"
-
+  "name": "My TestMyCode Codespace",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-22.04",
+  "postCreateCommand": "echo 'Now you have glibc ≥ 2.34!'"
 }
+
 
